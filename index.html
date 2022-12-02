@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html >
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script src="./js/bootstrap.js"></script>
+    <script src="styles.js"></script>
+</head>
+
+<javascript>
+
+</javascript>
+<body cz-shortcut-listen="true">
+    <section>
+        <div class="imgBx">
+            <img src="./img/backgroundCasillla1.jpg">
+        </div>
+        <div class="contentBx">
+            <div class="formBx">
+                <br>
+                <div style="text-align:center">
+                    <img src="./img/casillaelectronicaLogo2.png" style="max-width: 100%;">
+                </div>
+
+                <div style="text-align:center">
+
+                </div>
+                <div style="text-align:center" class="encabezado2">
+                    <span> PORTAL WEB</span>
+                </div>
+
+                <style>
+
+
+             .myButton {
+                 /*background-color: #44c767;*/
+                 -moz-border-radius: 28px;
+                 -webkit-border-radius: 28px;
+                 border-radius: 28px;
+                 border: 0px solid /*#18ab29*/;
+                 display: inline-block;
+                 cursor: pointer;
+                 /*color: #ffffff;*/
+                 font-family: Arial;
+                 font-size: 17px;
+                 padding: 16px 31px;
+                 text-decoration: none;
+                 background-color: #E2001A;
+                 text-shadow: 0px 1px 0px /*#2f6627*/;
+             }
+
+                 .myButton:hover {
+                     background-color: #bf0516 !important;
+                 }
+
+                 .myButton:focus {
+                     background-color: #bf0516;
+                 }
+
+                 .myButton:active {
+                     position: relative;
+                     top: 1px;
+                 }
+
+
+             .myButton2 {
+                 /*background-color: #44c767;*/
+                 -moz-border-radius: 28px;
+                 -webkit-border-radius: 28px;
+                 border-radius: 28px;
+                 border: 0px solid /*#18ab29*/;
+                 display: inline-block;
+                 cursor: pointer;
+                 color: #E2001A;
+                 font-family: Arial;
+                 font-size: 17px;
+                 padding: 16px 31px;
+                 text-decoration: none;
+                 background-color: #fff;
+                 text-shadow: 0px 1px 0px /*#2f6627*/;
+             }
+
+                 .myButton2:hover {
+                     background-color: #bf0516;
+                 }
+
+                 .myButton2:focus {
+                     background-color: #bf0516;
+                 }
+
+                 .myButton2:active {
+                     position: relative;
+                     top: 1px;
+                 }
+
+             .progress-bar {
+                 color: #333;
+             }
+
+             * {
+                 -webkit-box-sizing: border-box;
+                 -moz-box-sizing: border-box;
+                 box-sizing: border-box;
+                 outline: none;
+             }
+
+             .form-control {
+                 position: relative;
+                 font-size: 16px;
+                 height: auto;
+                 padding: 10px;
+                 @include box-sizing(border-box);
+                 &:focus;
+
+             {
+                 z-index: 2;
+             }
+
+             }
+
+
+             .myTransparencia {
+                 background: url("img/transparencia.png") no-repeat center center fixed;
+                 -webkit-background-size: cover;
+                 -moz-background-size: cover;
+                 -o-background-size: cover;
+                 background-size: cover;
+             }
+
+             .login-form {
+                 margin-top: 60px;
+             }
+
+             form[role=login] {
+                 color: #5d5d5d;
+                 background: #f2f2f2;
+                 padding: 26px;
+                 border-radius: 10px;
+                 -moz-border-radius: 10px;
+                 -webkit-border-radius: 10px;
+             }
+            form[role=menulogin] center {
+                margin: 5px;
+            }
+            form[role=menulogin] {
+                color: #5d5d5d;
+                background: #f2f2f2;
+                padding: 26px;
+                border-radius: 10px;
+                -moz-border-radius: 10px;
+                -webkit-border-radius: 10px;
+            }
+
+                 form[role=login] img {
+                     display: block;
+                     margin: 0 auto;
+                     margin-bottom: 35px;
+                 }
+
+                 form[role=login] input,
+                 form[role=login] button {
+                     font-size: 18px;
+                     margin: 16px 0 inherit;
+                 }
+
+                 form[role=login] > div {
+                     text-align: center;
+                 }
+
+             .form-links {
+                 text-align: center;
+                 margin-top: 1em;
+                 margin-bottom: 50px;
+             }
+
+                 .form-links a {
+                     color: #fff;
+                 }
+
+             #preloader {
+                 position: absolute;
+                 top: 0;
+                 left: 0;
+                 right: 0;
+                 bottom: 0;
+                 background-color: #e8e8e8;
+                 z-index: 10000;
+                 background-color: #4d4d4d;
+                 opacity: 0.9;
+             }
+                    </style>
+
+                    <form id="form_id" method="post" name="myform">
+                        <div class="form-group border p-3">
+                            <div class="inputBx" ng-class="{&#39;has-error&#39; :form.dni.$invalid &amp;&amp; (form.dni.$dirty || submitted)}">
+                                <input type="text" name="username" id="username"/>
+                            </div>
+                            <div class="inputBx" ng-class="{&#39;has-error&#39; :form.password.$invalid &amp;&amp; (form.password.$dirty || submitted)}">
+                                <input type="password" name="password" id="password"/>
+                            </div>
+         
+                            <div class="inputBx"> 
+                                <input type="button" value="Login" id="submit" onclick="validate()"/>
+                            </div>
+                            <hr width="100%"> <br>
+                        </div>
+                    </form>
+                <div class="footer">
+
+                    <div><a href="">Olvide mi contraseña</a></div>
+                    <div>Manual de usuario: <a href="" target="_blank">haga clic aquí</a></div>
+                </div>
+                <br>
+                <br>
+                <div class="navigate">
+                    <div>Navegador recomendado Google Chrome.</div>
+                    <div>MTC-Todos los derechos reservados © 2021</div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <div id="fb-root"></div>
+</body>
+</html>
